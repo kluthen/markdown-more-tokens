@@ -1,0 +1,63 @@
+{
+    "injectionSelector": "L:meta.paragraph.markdown",
+    "patterns": [
+        {
+          "include": "#quoted"
+        },
+        {
+          "include": "#singlequoted"
+        },
+        {
+          "include": "#doublequoted"
+        },
+        {
+            "include": "#missit"
+        },
+        {
+            "include": "#missbold"
+        }
+    ],
+    "repository": {
+        "quoted": {
+          "match": "“([^ ][^”]*)”",
+          "captures": {
+            "1": {
+              "name": "markdown.fiction.quoted"
+            }
+          }
+        },
+        "singlequoted": {
+          "match": "'([^ ][^']*)'",
+          "captures": {
+            "1": {
+              "name": "markdown.fiction.singlequoted"
+            }
+          }
+        },
+        "doublequoted": {
+          "match": "'([^ ][^']*)'",
+          "captures": {
+            "1": {
+              "name": "markdown.fiction.doublequoted"
+            }
+          }
+        },
+      "missit": {
+        "match": "[*]([^ *][^*]*) [*]",
+        "captures": {
+          "1": {
+            "name": "markdown.fiction.missit"
+          }
+        }
+      },
+      "missbold": {
+        "match": "[*][*]([^ *][^*]*) [*][*]",
+        "captures": {
+          "1": {
+            "name": "markdown.fiction.missbold"
+          }
+        }
+      }
+    },
+    "scopeName": "markdown.fiction"
+}
