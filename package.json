@@ -1,5 +1,6 @@
 {
   "name": "markdown-more-tokens",
+  "publisher": "BBarcaioni",
 	"displayName": "Markdown More Tokens",
 	"description": "Add tokens to markdown files",
 	"version": "0.0.1",
