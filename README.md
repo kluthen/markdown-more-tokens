@@ -4,11 +4,11 @@
 
 Add markdown token for highlighting: 
 )
-* markdown.fiction.quoted : Targets content of “ ”
-* markdown.fiction.singlequoted: Content of ' '
-* markdown.fiction.doublequoted: Content of " "
-* markdown.fiction.missit: Trigger on missed italic like: *Toto *
-* markdown.fiction.missbold: Trigger on missed bold like: **Toto **
+* markdown.moretoken.quoted : Targets content of “ ”
+* markdown.moretoken.singlequoted: Content of ' '
+* markdown.moretoken.doublequoted: Content of " "
+* markdown.moretoken.missit: Trigger on missed italic like: *Toto *
+* markdown.moretoken.missbold: Trigger on missed bold like: **Toto **
 
 
 -----------------------------------------------------------------------------------------------------------

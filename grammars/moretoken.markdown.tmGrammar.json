@@ -22,7 +22,7 @@
           "match": "“([^ ][^”]*)”",
           "captures": {
             "1": {
-              "name": "markdown.fiction.quoted"
+              "name": "markdown.moretoken.quoted"
             }
           }
         },
@@ -30,7 +30,7 @@
           "match": "'([^ ][^']*)'",
           "captures": {
             "1": {
-              "name": "markdown.fiction.singlequoted"
+              "name": "markdown.moretoken.singlequoted"
             }
           }
         },
@@ -38,7 +38,7 @@
           "match": "'([^ ][^']*)'",
           "captures": {
             "1": {
-              "name": "markdown.fiction.doublequoted"
+              "name": "markdown.moretoken.doublequoted"
             }
           }
         },
@@ -46,7 +46,7 @@
         "match": "[*]([^ *][^*]*) [*]",
         "captures": {
           "1": {
-            "name": "markdown.fiction.missit"
+            "name": "markdown.moretoken.missit"
           }
         }
       },
@@ -54,10 +54,10 @@
         "match": "[*][*]([^ *][^*]*) [*][*]",
         "captures": {
           "1": {
-            "name": "markdown.fiction.missbold"
+            "name": "markdown.moretoken.missbold"
           }
         }
       }
     },
-    "scopeName": "markdown.fiction"
+    "scopeName": "markdown.moretoken"
 }

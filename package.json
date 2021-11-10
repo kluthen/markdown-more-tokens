@@ -3,17 +3,13 @@
   "publisher": "BBarcaioni",
 	"displayName": "Markdown More Tokens",
 	"description": "Add tokens to markdown files",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [
-        "onCommand:markdown-more-tokens.helloWorld"
-	],
-	"main": "./out/extension.js",
 	"contributes": {
 		"grammars": [
 		  {
