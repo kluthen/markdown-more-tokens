@@ -5,9 +5,6 @@
           "include": "#quoted"
         },
         {
-          "include": "#singlequoted"
-        },
-        {
           "include": "#doublequoted"
         },
         {
@@ -26,16 +23,8 @@
             }
           }
         },
-        "singlequoted": {
-          "match": "'([^ ][^']*)'",
-          "captures": {
-            "1": {
-              "name": "markdown.moretoken.singlequoted"
-            }
-          }
-        },
         "doublequoted": {
-          "match": "'([^ ][^']*)'",
+          "match": "\"([^ ][^\"]*)\"",
           "captures": {
             "1": {
               "name": "markdown.moretoken.doublequoted"
